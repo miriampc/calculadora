@@ -1,5 +1,5 @@
 $(_=>{
-   let screenVal = $('box-result');
+   let screenVal = $('input:text');
    $('input:button').on('click',_=>{
        "use strict";
        let eachNumber = $(this).val();
