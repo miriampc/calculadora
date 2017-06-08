@@ -1,3 +1,34 @@
 * {
     font-family: 'Khula', sans-serif;
 }
+.gray-dark {
+    background-color: #3b444b;
+}
+.gray-medium {
+    background-color: #62676b;
+}
+.gray-green {
+    background-color: darkslategray;
+}
+.gray-soft {
+    background-color: #bac7b6;
+}
+.gold {
+    background-color: #f0c50f;
+}
+input[type="button"],
+button{
+    border-radius: 50%;
+    border-style: none;
+    width: 19%;
+    height: 21%;
+    margin: 2%;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
